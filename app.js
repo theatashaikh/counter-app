@@ -9,3 +9,8 @@ incrementCountBtn.addEventListener("click", () => {
   counter++;
   countValue.innerText = counter;
 });
+
+resetCountBtn.addEventListener("click", () => {
+  counter = 0;
+  countValue.innerText = counter;
+});
